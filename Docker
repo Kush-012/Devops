@@ -1,1 +1,53 @@
+Introduction:
+Docker is a platform that allows developers to package applications along with their dependencies into containers, 
+which can run consistently across different environments.
+
+Note: Docker Desktop contains Docker Desktop and its CLI.
+
+Image vs container:
+A Docker image is a read-only template contains operating system, while a container is a running instance of that image.
+Container is a machine which contains image like say ubuntu.
+
+Image is a class and container is a object.
+A single image can support many containers.
+
+        +--------+        +--------+
+        | cont 1 |        | cont 2 |
+        +--------+        +--------+
+             ^                 ^
+              \               /
+               \             /
+                \           /
+                 \         /
+                  \       /
+                   \     /
+                    \   /
+                     \ /
+                 +----------+
+                 |  Image   |
+                 +----------+
+
+Below is example of custom made image:
++--------------------------+ 
+|   ubuntu-with-tools      | => name of image
+|--------------------------|
+|     Custom Image         |  
+|     • Ubuntu             |   => storing dependencies
+|     • Node               |
+|     • MongoDB            |
+|     • Redis              |
++--------------------------+
+
+Docker hub is a place where it store its images.
+
+"docker run -it ubuntu" is a command which is used to run container with OS ubuntu. "-it" means "interactive" => remains in same container don't exit.
+"docker container ls -a" lists all containers
+"docker images" lists all images
+"docker start [name_of_container]" start specific container
+"docker stop [name_of_container]" stop specific container
+"docker exec [name_of_container] [command]" starts container with command
+
+"docker run -it -p 1025:1025 mail"
+-p => port mapping from container to local machine
+1st 1025 is local pc port and second port is container port
 
