@@ -5,8 +5,8 @@ which can run consistently across different environments.
 Note: Docker Desktop contains Docker Desktop and its CLI.
 
 Image vs container:
-A Docker image is a read-only template contains operating system, while a container is a running instance of that image.
-Container is a machine which contains image like say ubuntu.
+A Docker image is a read-only template contains OS, app code while a container is a running instance of that image.
+Container is a machine which is used to run image.
 
 Image is a class and container is a object.
 A single image can support many containers.
