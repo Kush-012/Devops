@@ -51,3 +51,8 @@ Docker hub is a place where it store its images.
 -p => port mapping from container to local machine
 1st 1025 is local pc port and second port is container port
 
+How to create image?
+1. go to hub.docker.com
+2. create repo
+3. in terminal run "docker build -t <username/repo_name> ."
+4. in cmd run "docker push <username/repo_name>"
