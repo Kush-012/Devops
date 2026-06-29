@@ -1,1 +1,11 @@
+Git:
+Git is a version control system (VCS) used to track changes in the code.
+It runs locally on computer.
 
+Github:
+It is a cloud platfoam where repositries are stored.
+
+3 terms:
+Repository: A Git-tracked project folder that stores your files and their version history.
+Working Directory: The folder where you create and modify project files.
+Staging Area (Index): A temporary (buffer) area before committing files.
