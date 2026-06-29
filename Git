@@ -11,6 +11,7 @@ Working Directory: The folder where you create and modify project files.
 Staging Area (Index): A temporary (buffer) area before committing files.
 
 Origin: It is alias for the github repo.
+Heaad: HEAD in Git is a reference to the latest commit on the currently checked-out branch.
 
 Commands:
 
@@ -27,6 +28,8 @@ Commands:
 4. git fork: Creates a copy on GitHub. Done using github
 
 5. git clone: Creates a copy on the local computer
+6. git log: shows commit history of current branch
+7. git reflog: shows the history of where HEAD and branch pointers have moved.
 
 Used to create branch: "git branch feature"
 For switch between branches: "git switch feature" / git checkout feature
@@ -40,4 +43,5 @@ Types of merging:
 git push -u origin main:
 -u (--set-upstream): Sets the remote tracking branch for the current local branch,
 allowing future git push and git pull commands without specifying the remote and branch name.
+
 
