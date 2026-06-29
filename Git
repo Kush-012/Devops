@@ -31,8 +31,13 @@ Commands:
 Used to create branch: "git branch feature"
 For switch between branches: "git switch feature" / git checkout feature
 For merging feature branch into main branch: come to main branch then write "git merge feature"
-Used to delete branch "git branch -D <branch-name>"
+Used to delete branch "git branch -D <branch-name>" even it is not merged for merged use -d.
 
 Types of merging:
 1. Fast-Forward Merge: A merge where Git simply moves the target branch pointer forward because it has no new commits.
 2. Three-Way Merge: A merge where Git combines changes from two diverged branches by creating a new merge commit.
+
+git push -u origin main:
+-u (--set-upstream): Sets the remote tracking branch for the current local branch,
+allowing future git push and git pull commands without specifying the remote and branch name.
+
