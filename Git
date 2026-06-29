@@ -6,6 +6,20 @@ Github:
 It is a cloud platfoam where repositries are stored.
 
 3 terms:
-Repository: A Git-tracked project folder that stores your files and their version history.
+Repository: A Git-tracked project folder that stores your files and their version history. 
 Working Directory: The folder where you create and modify project files.
 Staging Area (Index): A temporary (buffer) area before committing files.
+
+Origin: It is alias for the github repo.
+
+Commands:
+
+1. git push: It is used to share local repository changes to a remote repository.
+   Eg: git push origin main
+
+2. git pull: It updates the current local branch with changes from a remote repository
+   Eg: git pull origin main
+
+3. git fork: Creates a copy on GitHub. Done using github
+4. git clone: Creates a copy on the local computer
+
