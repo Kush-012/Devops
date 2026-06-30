@@ -44,4 +44,7 @@ git push -u origin main:
 -u (--set-upstream): Sets the remote tracking branch for the current local branch,
 allowing future git push and git pull commands without specifying the remote and branch name.
 
+Used to unmerge:
+git reset
+git revert
 
