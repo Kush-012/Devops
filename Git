@@ -30,6 +30,15 @@ Commands:
 5. git clone: Creates a copy on the local computer
 6. git log: shows commit history of current branch
 7. git reflog: shows the history of where HEAD and branch pointers have moved.
+8. git reset --soft
+   git reset --mixed
+   git reset --hard
+
+9. git stash push
+   git stash pop 
+   git stash apply {stash_name}
+
+10. git rebase main
 
 Used to create branch: "git branch feature"
 For switch between branches: "git switch feature" / git checkout feature
