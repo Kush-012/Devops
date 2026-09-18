@@ -1,0 +1,19 @@
+Kali linux, Ubuntu, CentOS are the linux distribution / Distros (based on top of linux)
+Linux is a kernel not OS
+
+Virtualisation:
+Running multiple virtual systems on one physical computer.
+
+Hypervisor:
+It is a software that creates and runs virtual machines (VMs).
+Eg: Oracle VirtualBox
+
+Types of Hypervisors:
+
+Type 1 (Bare Metal) 
+Hardware => Hypervisior => VM1,VM2
+
+Type 2 (Hosted)
+Host OS => Hypervisior => VM1,VM2
+
+For accessing remote server we use Putty, Git Bash, Mobaxterm
